@@ -33,4 +33,12 @@ The `README.txt` file contains detailed instructions to help you run both the `m
 5. **Troubleshooting**:
    - Ensure that the Flask app is running before making API requests.
    - The URLs provided in `request_api.py` must point to the running Flask server.
-
+  
+6. **This is your Routing meathods syntax**:
+      Flask Route Listing: First, let’s assume the routes in your my_project.py file.
+      
+      GET /tasks - Retrieve all tasks
+      POST /tasks - Add a new task
+      PUT /tasks/<task_name> - Update a task
+      DELETE /tasks/<task_name> - Delete a task
+   
