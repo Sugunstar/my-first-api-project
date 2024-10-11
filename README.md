@@ -1,5 +1,5 @@
 # my-first-api-project
-This i actually a project that helps you manage tasks that you have planed to do in future , gain info on how to use this from the provided readme file.
+This is actually a project that helps you manage tasks that you have planed to do in future , gain info on how to use this from the provided readme file.
 
 The `README.txt` file contains detailed instructions to help you run both the `my_project.py` (Flask backend) and `request_api.py` (API request script). Here's a summary of what it includes:
 
