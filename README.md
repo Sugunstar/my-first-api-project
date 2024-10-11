@@ -20,8 +20,8 @@ The `README.txt` file contains detailed instructions to help you run both the `m
    -most probablely, The Flask server will be available at `http://127.0.0.1:5000/`.
 
 4.1:**Step 3.1: Use Postman to Make an Api Request**:
- - The web app of postman dosent seem to support local severs
- -  In case you have postman desktop agent downloaded you can make a request there and skip the next step
+   - The web app of postman dosent seem to support local severs
+   - In case you have postman desktop agent downloaded you can make a request there and skip the next step 
     
 4.2:**Step 3.2: Use the API Request Script**:
    - Run the `request_api.py` script on an ide to interact with the API, providing the desired HTTP method and URL, along with JSON data 
