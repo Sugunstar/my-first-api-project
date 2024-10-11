@@ -37,11 +37,11 @@ The `README.txt` file contains detailed instructions to help you run both the `m
   
 6. **This is your Routing meathods syntax**:
       Flask Route Listing: First, let’s assume the routes in your my_project.py file.
-      - GET /tasks - Retrieve all tasks      (to be more exact :http://127.0.0.1:5000/tasks)
+      - GET /tasks - Retrieve all tasks      (to be more exact :http://127.0.0.1:5000/tasks) skip json text
       - POST /tasks - Add a new task      (to be more exact :http://127.0.0.1:5000/tasks) and also add json text as mentioned above
       - PUT /tasks/<task_name> - Update a task      (to be more exact :http://127.0.0.1:5000/tasks/<task_name>) and also add json text as 
         mentioned above
-      - DELETE /tasks/<task_name> - Delete a task      (to be more exact :http://127.0.0.1:5000/tasks/<task_name>)
+      - DELETE /tasks/<task_name> - Delete a task      (to be more exact :http://127.0.0.1:5000/tasks/<task_name>)skip json text
    
       
      
