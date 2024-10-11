@@ -1,15 +1,17 @@
 from flask import Flask, jsonify, request
 from pymongo import MongoClient
 from pymongo.server_api import ServerApi
+import os
+from dotenv import load_dotenv
+from pathlib import Path
+
 
 app = Flask(__name__)
+env_path = Path('C:/Users/home/Documents/pyide/api project/db.env')
+load_dotenv(dotenv_path=env_path)
+mongo_uri = os.getenv("URI")
 
-
-uri = "mongodb+srv://venkatasugunadithya:fmHpAuSLcnkI4BUM@cluster0.zvndb.mongodb.net/mydb?retryWrites=true&w=majority&appName=Cluster0"
-
-
-client = MongoClient(uri, server_api=ServerApi('1'))
-
+client = MongoClient(mongo_uri)
 # Test connection
 try:
     client.admin.command('ping')
