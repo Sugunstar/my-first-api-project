@@ -1,5 +1,5 @@
 # my-first-api-project
-This i actually a project that helps you manage tasks that you have planed to do in future , gain info on how to use this from the provided readme file
+This i actually a project that helps you manage tasks that you have planed to do in future , gain info on how to use this from the provided readme file.
 
 The `README.txt` file contains detailed instructions to help you run both the `my_project.py` (Flask backend) and `request_api.py` (API request script). Here's a summary of what it includes:
 
@@ -26,7 +26,8 @@ The `README.txt` file contains detailed instructions to help you run both the `m
  -  In case you have postman desktop agent downloaded you can make a request there and skip the next step
     
 4.2:**Step 3.2: Use the API Request Script**:
-   - Run the `request_api.py` script on an ide to interact with the API, providing the desired HTTP method and URL, along with JSON data for POST or PUT requests.
+   - Run the `request_api.py` script on an ide to interact with the API, providing the desired HTTP method and URL, along with JSON data 
+     for POST or PUT requests.
    - when you run your http request make sure that your path is /tasks
    - {'name': 'New Task','description': 'Task description','completed': False } this is how your JSON input should look
 
@@ -36,10 +37,11 @@ The `README.txt` file contains detailed instructions to help you run both the `m
   
 6. **This is your Routing meathods syntax**:
       Flask Route Listing: First, let’s assume the routes in your my_project.py file.
-      - GET /tasks - Retrieve all tasks
-      - POST /tasks - Add a new task
-      - PUT /tasks/<task_name> - Update a task
-      - DELETE /tasks/<task_name> - Delete a task
+      - GET /tasks - Retrieve all tasks      (to be more exact :http://127.0.0.1:5000/tasks)
+      - POST /tasks - Add a new task      (to be more exact :http://127.0.0.1:5000/tasks) and also add json text as mentioned above
+      - PUT /tasks/<task_name> - Update a task      (to be more exact :http://127.0.0.1:5000/tasks/<task_name>) and also add json text as 
+        mentioned above
+      - DELETE /tasks/<task_name> - Delete a task      (to be more exact :http://127.0.0.1:5000/tasks/<task_name>)
    
       
      
