@@ -26,7 +26,7 @@ The `README.txt` file contains detailed instructions to help you run both the `m
    -In case you have postman desktop agent downloaded you can make a request there and skip the next step
 
 4.2:**Step 3.2: Use the API Request Script**:
-   - Run the `request_api.py` script to interact with the API, providing the desired HTTP method and URL, along with JSON data for POST or PUT requests.
+   - Run the `request_api.py` script on an ide to interact with the API, providing the desired HTTP method and URL, along with JSON data for POST or PUT requests.
    -{'name': 'New Task','description': 'Task description','completed': False } this is how your JSON input should look
 
 5. **Troubleshooting**:
