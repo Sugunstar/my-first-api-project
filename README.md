@@ -17,9 +17,7 @@ The `README.txt` file contains detailed instructions to help you run both the `m
 3. **Step 2: Run the Flask Application**:
    - To start the Flask server open command prompt where your project files are, run:
      python my_project.py
-    
-     most probablely,
-   - The Flask server will be available at `http://127.0.0.1:5000/`.
+   -most probablely, The Flask server will be available at `http://127.0.0.1:5000/`.
 
 4.1:**Step 3.1: Use Postman to Make an Api Request**:
  - The web app of postman dosent seem to support local severs
