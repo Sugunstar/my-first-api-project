@@ -27,6 +27,7 @@ The `README.txt` file contains detailed instructions to help you run both the `m
 
 4.2:**Step 3.2: Use the API Request Script**:
    - Run the `request_api.py` script on an ide to interact with the API, providing the desired HTTP method and URL, along with JSON data for POST or PUT requests.
+   - when you run your http request make sure that your path is /tasks
    -{'name': 'New Task','description': 'Task description','completed': False } this is how your JSON input should look
 
 5. **Troubleshooting**:
